@@ -31,7 +31,7 @@ Create a folder named `src` and place all your source code inside it. Finally, c
 #### BQ_run_module.py
 Include all necessary data reading and pre-processing 
 code in `BQ_run_module.py` as well as a function named `run_module` that will take `input_path_dict` and `output_folder_path`.
-Hyper parameters for running the module will have to be hardcoded for now but future releases will extend functionality  for theses as well. 
+Hyper parameters for running the module will have to be hardcoded for now but future releases will extend functionality  for these as well. 
 This function should load input resources from `input_path_dict`, do any preprocessing steps, run the algorithm,
 save all outputs to `output_folder_path`, ***AND return the `outputs_path_dict`***.
 
@@ -270,6 +270,7 @@ EdgeDetection.xml created
 #### Generating help html file
 Edit the `help.md` [markdown](https://www.markdownguide.org/basic-syntax/) file in the `public` folder to include any documentation and examples you want to provide users.
 When you are done, generate the html file by running `bqmod gen_help_html` from the `{ModuleName}` folder.
+Please do a hard refresh on your browser every time you make changes to `help.html`. If not, it's possible that the browser is just showing the old version of the file because it was cached.
 
 
 
