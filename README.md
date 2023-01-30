@@ -505,7 +505,7 @@ Bisque starts a new container of your module and saves their corresponding logs 
 22 alphanumeric characters, Ex: `00-fMqFvjiHRjUfaff6GRy73M`. This folder will have all the logs needed to debug your module. To get to this folder, 
 run the following:
 ```bash
-docker exec -it amilworks/bisque-module-dev:git bash
+docker exec -it bisque bash
 cd /source/staging/{mex_id}
 ```
 
